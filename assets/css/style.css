@@ -1,0 +1,81 @@
+* {
+  font-family: 'Roboto', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  right: 0;
+  left: 0;
+  color: blue;
+  font-weight: 900;
+}
+h2 {
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 24px;
+  color: red;
+}
+#boardContainer,
+#playerContainer {
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: top;
+  border: none;
+}
+
+#grid {
+  width: 992px;
+  margin: 0 auto;
+  display: inline-block;
+  background-color: #fff;
+}
+#playerGrid {
+  width: 500px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.cell {
+  width: 96px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid red;
+  line-height: 50px;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cell.drawn {
+  background-color: yellow;
+  color: red;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 24px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: blue;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+#drawnNumber {
+  font-size: 24px;
+  color: #444;
+  margin-top: 15px;
+  font-weight: 700;
+}
